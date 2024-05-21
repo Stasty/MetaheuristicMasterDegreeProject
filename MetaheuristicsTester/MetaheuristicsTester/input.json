@@ -1,0 +1,674 @@
+[
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 10000.0,
+      "populationSize": 200.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 10000.0,
+      "populationSize": 200.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 10000.0,
+      "populationSize": 200.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 10000.0,
+      "populationSize": 200.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "Step",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 3000.0,
+      "populationSize": 60.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 10000.0,
+      "populationSize": 200.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 3000.0,
+      "populationSize": 60.0
+    }
+  },
+  {
+    "NumberOfExperiments": 60,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "GeneticAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "mutationRate": 0.3,
+      "crossoverRate": 0.9,
+      "numberOfGenerations": 10000.0,
+      "populationSize": 200.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Step",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "AntColonyOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 200.0,
+      "kernels": 250.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Step",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "ArtificialBeeColony",
+    "Parameters": {
+      "dimensions": 20.0,
+      "foodSourcePoolSize": 150.0,
+      "neighbourSearch": 25.0,
+      "abondmendLimit": 1100.0,
+      "maxIterations": 7000.0,
+      "c": 1.5
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 5000.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 10000.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 10000.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 7000.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Step",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 900.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 5000.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 800.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "GreyWolfAlgorithm",
+    "Parameters": {
+      "populationSize": 200.0,
+      "maxGenerations": 10000.0,
+      "dimensions": 30.0
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Step",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "KrillHerd",
+    "Parameters": {
+      "dimensions": 20.0,
+      "maxInductionSpeed": 0.125,
+      "maxDiffusionSpeed": 0.00025,
+      "speedToEmbraceFood": 0.15,
+      "numberOfGenerations": 100.0,
+      "populationSize": 150.0,
+      "alpha": 0.0002
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Step",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "ParticleSwarmOptimizer",
+    "Parameters": {
+      "dimensions": 20.0,
+      "numberOfGenerations": 50.0,
+      "populationSize": 100.0,
+      "a": 0.1,
+      "b": 0.2,
+      "c": 0,
+      "d": 0.3
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Sphere",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 2000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Rastrigin",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 10000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Ackley",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 10000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "BentCigar",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 2000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Step",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 200.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Zakharov",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 2000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "Katsuura",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 4000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  },
+  {
+    "NumberOfExperiments": 50,
+    "FunctionName": "SchafterF6",
+    "AlgorithmName": "WhaleOptimizationAlgorithm",
+    "Parameters": {
+      "dimensions": 30.0,
+      "maxIterations": 10000.0,
+      "populationSize": 200.0,
+      "b": 0.02
+    }
+  }
+]

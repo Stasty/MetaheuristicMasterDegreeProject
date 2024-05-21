@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+MetaheuristicsTester/.vs/
+
+MetaheuristicsTester/MetaheuristicsTester/bin/

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MetaheuristicsTester": {
+      "commandName": "Project",
+      "commandLineArgs": "-i C:/Users/Pc/Desktop/input.json -o \"D:/Studia mgr sem 2/Praca magisterska/DataAnalisys/wyjscie.json\""
+    }
+  }
+}
